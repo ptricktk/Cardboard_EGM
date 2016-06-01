@@ -1,0 +1,13 @@
+E:\Unity\Uitzoek projecten\EGMgame\Android_Cardboard\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+E:\Unity\Uitzoek projecten\EGMgame\Android_Cardboard\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+E:\Unity\Uitzoek projecten\EGMgame\Android_Cardboard\Temp\UnityVS_bin\Debug\UnityEditor.dll
+E:\Unity\Uitzoek projecten\EGMgame\Android_Cardboard\Temp\UnityVS_bin\Debug\UnityEngine.dll
+E:\Unity\Uitzoek projecten\EGMgame\Android_Cardboard\Temp\UnityVS_bin\Debug\UnityEngine.Networking.dll
+E:\Unity\Uitzoek projecten\EGMgame\Android_Cardboard\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+E:\Unity\Uitzoek projecten\EGMgame\Android_Cardboard\Temp\UnityVS_bin\Debug\UnityEngine.xml
+E:\Unity\Uitzoek projecten\EGMgame\Android_Cardboard\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+E:\Unity\Uitzoek projecten\EGMgame\Android_Cardboard\Temp\UnityVS_bin\Debug\UnityEngine.Networking.xml
+E:\Unity\Uitzoek projecten\EGMgame\Android_Cardboard\Temp\UnityVS_bin\Debug\UnityEditor.xml
+E:\Unity\Uitzoek projecten\EGMgame\Android_Cardboard\Temp\UnityVS_obj\Debug\Android_Cardboard.CSharp.csprojResolveAssemblyReference.cache
+E:\Unity\Uitzoek projecten\EGMgame\Android_Cardboard\Temp\UnityVS_obj\Debug\Assembly-CSharp.dll
+E:\Unity\Uitzoek projecten\EGMgame\Android_Cardboard\Temp\UnityVS_obj\Debug\Assembly-CSharp.pdb
