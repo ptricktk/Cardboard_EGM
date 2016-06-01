@@ -9,7 +9,7 @@ public class TargetLogic : MonoBehaviour {
 
     // Use this for initialization
 	void Start () {
-        TargetValue = Mathf.RoundToInt(Random.Range(1.0f, 3.0f));
+        TargetValue = 1;
         gm = GameManagement.instance;
         quack = GetComponent<AudioSource>();
 	}
