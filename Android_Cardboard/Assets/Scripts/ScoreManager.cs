@@ -13,6 +13,11 @@ public class ScoreManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        text.text =  "Je Score is " + GameManagement.instance.Score;
-	}
+        if (GameManagement.instance.GameState != "started")
+            text.enabled = true;
+        else
+            text.enabled = false;
+
+        text.text = "Je Score is " + GameManagement.instance.Score;
+    }
 }

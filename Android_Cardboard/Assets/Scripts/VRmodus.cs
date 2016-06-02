@@ -7,5 +7,6 @@ public class VRmodus : MonoBehaviour {
     {
         Cardboard.SDK.VRModeEnabled = !Cardboard.SDK.VRModeEnabled;
         
+        GameManagement.instance.StartGame();
     }
 }

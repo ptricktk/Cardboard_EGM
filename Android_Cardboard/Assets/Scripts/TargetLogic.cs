@@ -12,19 +12,23 @@ public class TargetLogic : MonoBehaviour {
         TargetValue = 1;
         gm = GameManagement.instance;
         quack = GetComponent<AudioSource>();
+        InvokeRepeating("SwitchToRandomSpawnpoint", 10f, 3f);
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
     public void HitRecieved()
     {
-        quack.Play();
-        transform.position = gm.SpawnLocations[Mathf.RoundToInt(Random.Range(0, gm.SpawnLocations.Length -1))].transform.position; 
-        gm.updateScore(TargetValue);
+        if (GameManagement.instance.GameState != "ended")
+        { 
+            quack.Play();
+            transform.position = gm.SpawnLocations[Mathf.RoundToInt(Random.Range(0, gm.SpawnLocations.Length -1))].transform.position; 
+            gm.updateScore(TargetValue);
+        }
     }
 
+    private void SwitchToRandomSpawnpoint()
+    {
+        transform.position = gm.SpawnLocations[Mathf.RoundToInt(Random.Range(0, gm.SpawnLocations.Length - 1))].transform.position;
+    }
     
 }

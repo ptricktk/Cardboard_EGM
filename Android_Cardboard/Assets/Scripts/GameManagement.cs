@@ -7,6 +7,7 @@ public class GameManagement : MonoBehaviour {
 
     public GameObject[] SpawnLocations;
     public int Score;
+    public string GameState = "ended";
 
 
 	// Use this for initialization
@@ -24,8 +25,27 @@ public class GameManagement : MonoBehaviour {
         Score = 0;
 
         SpawnLocations = GameObject.FindGameObjectsWithTag("SpawnPoints");
+        
 	}
-	
+
+
+    void Start ()
+    {
+        StartGame();
+    }	
+
+    public void StartGame()
+    {
+        Score = 0;
+        GameState = "started";
+        Invoke("EndTimer", 65f);
+    }
+
+    private void EndTimer()
+    {
+        Cardboard.SDK.VRModeEnabled = !Cardboard.SDK.VRModeEnabled;
+        GameState = "ended";
+    }
 
     public void updateScore(int ScoreToAdd)
     {
