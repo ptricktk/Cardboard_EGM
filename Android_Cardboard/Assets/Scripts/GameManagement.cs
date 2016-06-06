@@ -43,7 +43,7 @@ public class GameManagement : MonoBehaviour {
 
     private void EndTimer()
     {
-        Cardboard.SDK.VRModeEnabled = !Cardboard.SDK.VRModeEnabled;
+        GvrViewer.Instance.VRModeEnabled = !GvrViewer.Instance.VRModeEnabled;
         GameState = "ended";
     }
 

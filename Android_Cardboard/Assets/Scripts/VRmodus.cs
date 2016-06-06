@@ -5,7 +5,7 @@ public class VRmodus : MonoBehaviour {
 
     public void WisselVRmodus()
     {
-        Cardboard.SDK.VRModeEnabled = !Cardboard.SDK.VRModeEnabled;
+        GvrViewer.Instance.VRModeEnabled = !GvrViewer.Instance.VRModeEnabled;
         
         GameManagement.instance.StartGame();
     }
